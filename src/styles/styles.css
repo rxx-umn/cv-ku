@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cv-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 70px;
+}
+
+h1, h2, h3 {
+    color: #4285f4;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.profile-img-container{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    
+}
+
+.profile-img {
+    max-width: 10%;
+    height: 10%;
+    border: 3px solid #4285f4;
+    border-radius: 50%; /* Membuat frame bulat */
+    display: block; /* Untuk menghapus efek whitespace di sekitar gambar */
+    margin-top: 200px; /* Untuk meletakkan gambar di tengah jika diperlukan */
+    margin-left: 660px;
+    
+}
+
+
+
+div:hover {
+    background-color: #f0f8ff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.skills ul,
+.language ul,
+.projects ul,
+.experience ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li,
+.language li,
+.projects li,
+.experience li {
+    margin-bottom: 5px;
+}
+
+.name-text {
+        position: absolute;
+        margin-bottom: 100px ;
+        left: 580px;
+        width: 20%;
+        background-color: rgba(0, 0, 0, 0.7); /* Atur warna latar belakang sesuai kebutuhan */
+        color: #fff; /* Atur warna teks sesuai kebutuhan */
+        padding: 5px;
+        margin: 0;
+        display: flex;
+        justify-content: center; /* Posisikan teks secara horizontal di tengah */
+        align-items: center; /* Posisikan teks secara vertikal di tengah */
+    }
+
+
+
+.section {
+    padding: 0px;
+    margin-bottom: 0px;
+    border: 0px solid;
+    background: linear-gradient(to bottom, #ffffff, #f5f5f5); /* Efek gradient untuk latar belakang */
+    transition: background-color 0.3s ease; /* Efek perubahan warna dengan durasi dan efek transisi */
+}
+
+/* Hover effect untuk setiap section */
+.section:hover {
+    background: linear-gradient(to bottom, #ddedea, #37e5dc); /* Efek gradient yang berubah saat dihover */
+    cursor: pointer; /* Ganti dengan kursor yang sesuai, misalnya 'pointer' untuk menunjukkan tautan */
+}
+
+
+
+
+/* Gaya untuk footer */
+.footer {
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ddd; /* Tambahkan garis di bagian atas footer */
+}
+
+
+
+
+
